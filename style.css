@@ -1,0 +1,92 @@
+* {
+    margin: 0;  /* margem da página */ 
+    padding: 0; /* espaçamento entre os itens */
+    box-sizing: border-box; /* tamanho dos elementos adaptado */
+    font-family: Arial, Helvetica, sans-serif; /* fonte da página */
+}
+
+header {
+    display: flex; /* mudar o alinhamento */
+    justify-content: space-between; /* colocar eles em ordem */
+    align-items: center; /* Alinha os itens no centro */
+    padding: 20px; /* Coloca o espaçamento entre itens em 20px */
+    background-color: #333; /* Muda a cor do fundo do elemento header */
+    color: #fff; /* Muda a cor das letras dentro de header */
+}
+
+header .logo{
+    font-size: 24px; /* Tamanho da minha fonte dentro do header .logo */
+    font-weight: bold; /* Deixando a letra em negrito */
+}
+
+header nav ul {
+    display: flex; /* Deixa os botões um do lado do outro */
+    list-style: none; /* Tira o estilo da letra */
+}
+
+header nav ul li {
+    margin-left: 20px; /* Cria uma margem ao lado do botão */
+}
+
+header nav ul li a {
+    color: #fff; /* Mudando a cor do elemento para branco */
+    text-decoration: none;  /* Tirando a decoração padrão */
+    font-weight: bold; /* Deixando a letra em negrito */
+}
+
+.banner {
+    background: url('banner1.png') no-repeat center center/cover; /* imagem de fundo */
+    height: 400px; /* Tamanho do meu banner (Altura) */
+    display: flex; /* Deixar os elementos alinhados */
+    flex-direction: column; /* Deixar os elementos um abaixo do outro */
+    justify-content: center; /* Deixar eles no centro do banner */
+    align-items: center; /* Deixar eles no meio do banner */
+    color: #fff; /* Cor da letra cinza */
+    text-align: center; /* Texto alinhado no meio */
+}
+
+.banner h1 {
+    font-size: 4rem; /* Aumentando o tamanho do título */
+}
+
+.banner p {
+    font-size: 1.5rem; /* Aumentando o tamanho da letra */
+    margin: 10px 0; /* Aumentando a margem do Parágrafo */
+}
+
+.btn-banner {
+    padding: 10px 20px; /* Espaçamento entre os elementos do botão */
+    background-color: #e91e63; /* Cor de fundo do botão */
+    color: #fff; /* Cor da letra do botão */
+    text-decoration: none; /* Tirando a decoração do botão */
+    border-radius: 10px; /* Deixando as pontas do botão redondas */
+    margin-top: 20px; /* Aumentando a margem de cima do botão */
+    font-size: 1rem; /* Mudando o tamanho da letra do botão */
+}
+
+/* Seção de Produtos */
+.produtos {
+    padding: 50px 20px; /* Aumentando o distanciamento de outros elementos */
+    background-color: #f5f5f5; /* Mudando a cor de fundo do card */
+    text-align: center; /* Alinhando todo o texto no centro */
+}
+
+.produtos h2 {
+    font-size: 2.5rem; /* Aumentando tamanho do subtítulo */
+    margin-bottom: 20px; /* Aumentando a margem de baixo */
+}
+
+.produtos-container{
+    display: flex; /* Deixa os elementos soltos */
+    gap: 20px; /* Salto de 20px */
+    flex-wrap: wrap; /* Responsivo para o caso de mais cards */
+    justify-content: center; /* Deixa os elementos no centro */
+}
+
+
+
+
+
+
+
+
